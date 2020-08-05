@@ -6,8 +6,8 @@
   </head>
   <body class="page__body">
     <header class="page-header">
-      <a class="page-header__logo">
-        <img src="https://via.placeholder.com/150x150">
+      <a href="index.html" class="page-header__logo">
+        <img src="https://via.placeholder.com/150x150" alt="Логотип сайта">
       </a>
       <nav class="main-nav">
         <button class="main-nav__toggle" type="button">
@@ -47,7 +47,7 @@
           <div class="news__list post-list">
             <div class="post-list__item">
               <a href="#">
-                <img class="post__photo" src="https://via.placeholder.com/150x150">
+                <img class="post__photo" src="https://via.placeholder.com/150x150" alt="Неродные пиросторы">
               </a>
               <h3 class="post__title">Неродные просторы</h3>
               <p class="post__author">Автор фото: Борис</p>
@@ -58,7 +58,7 @@
             </div>
             <div class="post-list__item">
               <a href="#">
-                <img class="post__photo" src="https://via.placeholder.com/150x150">
+                <img class="post__photo" src="https://via.placeholder.com/150x150" alt="Местная ростительность">
               </a>
               <h3 class="post__title">Местная ростительность</h3>
               <p class="post__author">Автор фото: Сергей</p>
@@ -69,7 +69,7 @@
             </div>
             <div class="post-list__item">
               <a href="#">
-                <img class="post__photo" src="https://via.placeholder.com/150x150">
+                <img class="post__photo" src="https://via.placeholder.com/150x150" alt="Дорога на север">
               </a>
               <h3 class="post__title">Дорога на север</h3>
               <p class="post__author">Автор фото: Пётр</p>
@@ -80,7 +80,7 @@
             </div>
             <div class="post-list__item">
               <a href="#">
-                <img class="post__photo" src="https://via.placeholder.com/150x150">
+                <img class="post__photo" src="https://via.placeholder.com/150x150" alt="Мост дьявола">
               </a>
               <h3 class="post__title">Мост дьявола</h3>
               <p class="post__author">Автор фото: Антон</p>
@@ -91,7 +91,15 @@
             </div>
           </div>
       </section>
-      <!--Здесь будет блок с редактором-->
+      <section class="video">
+        <h2 class="video__title">Всё еще сомневаетесь?</h2>
+        <p class="video__preview">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+        <video width="320" height="201" controls="controls" poster="#"> <!--здесь будет адрес на постер-->
+          <source src="video.ogv" type="videovideo/ogg">
+          <source src="video.mp4" type="video/mp4">
+          <source src="video.webm" type="video/webm">
+        </video>
+      </section>
     </main>
     <footer class="page-footer">
       <div class="page-footer__hashtag hashtag">
@@ -112,7 +120,7 @@
       </div>
       <div class="page-footer__copyright copyright">
         <b class="copyright__text">Разработано</b>
-        <a href="#"><img src="" alt="logo_copyright"></a>
+        <a href="#"><img src="#" alt="logo_copyright"></a>
       </div>
     </footer>
   </body>
