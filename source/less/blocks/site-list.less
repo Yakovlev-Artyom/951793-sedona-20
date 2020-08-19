@@ -5,3 +5,22 @@
   font-size: 18px;
   line-height: 40px;
 }
+.site-list__item{
+	color: @black;
+    &:hover,
+    &:focus{
+      color: @basic-color;
+  	}
+  	&:visited{
+      color:rgba(0, 0, 0, 0.3);
+  	}
+    &--active{
+      color: @brown;
+    }
+  	&--active:hover{
+      color:rgba(96, 78, 67, 1);
+  	}
+  	&--active:visited{
+      color:rgba(118, 99, 87, 0.3);
+  	}
+}
