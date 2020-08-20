@@ -1,0 +1,12 @@
+.advantages-list__item {
+  background-color: @white;
+
+  &:nth-child(1),
+  &:nth-child(5) {
+    background-color: @basic-color;
+  }
+
+  &:nth-child(n+6) {
+    background-color: @grey;
+  }
+}
